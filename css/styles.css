@@ -1,3 +1,4 @@
+/* styling for the whole webpage  */
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
 }
 
 /* this is the styling for the head section  */
-.main-header-flex {
+.main-header-footer-flex {
     display: flex;
     justify-content: space-around;
     margin: 10px;
@@ -34,4 +35,35 @@
 }
 
 
-/* this is where the "main body is would live"  */
+/* this is where the "main body" style would live  */
+.main {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.main-left-side {
+    height: 400px;
+    width: 700px;
+    margin-left: 10px;
+    border: 5px solid #CF294B;
+    background-color: #CF8A98;
+}
+
+.main-right-side {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.main-right-sub { 
+    height: 190px;
+    width: 700px;
+    margin-right: 10px;
+    border: 5px solid #CF294B;
+    background-color: #CF8A98;
+}
+
+/* where the footer styling lives */
